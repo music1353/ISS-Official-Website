@@ -1,0 +1,68 @@
+// spacing 區塊
+.space {
+  padding: 50px;
+}
+
+.small-space {
+  padding: 20px;
+}
+
+// padding & margin spacing
+@each $name, $scale in $pm-scales {
+  // padding spacing
+  .p-#{$name} {
+    padding-top: $scale !important;
+    padding-bottom: $scale !important;
+    padding-left: $scale !important;
+    padding-right: $scale !important;
+  }
+  .px-#{$name} {
+    padding-right: $scale !important;
+    padding-left: $scale !important;
+  }
+  .py-#{$name} {
+    padding-top: $scale !important;
+    padding-bottom: $scale !important;
+  }
+  .pt-#{$name} {
+    padding-top: $scale !important;
+  }
+  .pb-#{$name} {
+    padding-bottom: $scale !important;
+  }
+  .pl-#{$name} {
+    padding-left: $scale !important;
+  }
+  .pr-#{$name} {
+    padding-right: $scale !important;
+  }
+
+  // margin spacing
+  .m-#{$name} {
+    margin-top: $scale !important;
+    margin-bottom: $scale !important;
+    margin-left: $scale !important;
+    margin-right: $scale !important;
+  }
+  .mx-#{$name} {
+    margin-right: $scale !important;
+    margin-left: $scale !important;
+  }
+  .my-#{$name} {
+    margin-top: $scale !important;
+    margin-bottom: $scale !important;
+  }
+  .mt-#{$name} {
+    margin-top: $scale !important;
+  }
+  .mb-#{$name} {
+    margin-bottom: $scale !important;
+  }
+  .ml-#{$name} {
+    margin-left: $scale !important;
+  }
+  .mr-#{$name} {
+    margin-right: $scale !important;
+  }
+}
+

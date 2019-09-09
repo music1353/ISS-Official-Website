@@ -1,0 +1,26 @@
+/* container aside */
+aside .el-aside {
+  height: calc(100vh - 60px);
+  overflow: initial;
+}
+
+/* 主要呈現內容的container */
+.main-container {
+  height: calc(100vh - 60px);
+  overflow: initial;
+}
+
+/* footer */
+footer.el-footer {
+  height: 50px !important;
+}
+
+/* loading mask */
+.el-loading-mask {
+  z-index: 999 !important;
+}
+
+/* tag */
+.el-tag + .el-tag {
+  margin-left: 10px;
+}

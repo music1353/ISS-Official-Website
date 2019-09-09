@@ -1,0 +1,23 @@
+@mixin box-sizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@mixin hyperlink {
+  text-decoration: none;
+  color: $regular-text-color;
+  transition: $quick-transition;
+
+  &:hover {
+    color: $primary-text-color !important;
+    cursor: pointer;
+  }
+}
+
+// 與 penguin-problem-name 共用
+@mixin penguin-box-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}

@@ -1,0 +1,39 @@
+#iss-protal-header {
+  width: 100%;
+  background-color: white;
+  box-shadow: $box-shadow-light;
+  position: relative;
+
+  .header-logo-wrapper {
+    .logo-img {
+      width: 300px;
+      margin-bottom: -4px;
+    }
+
+    .bottom-line {
+      background-color: #005CA1;
+      height: 34px;
+      width: calc(100% - 300px);
+      margin-bottom: 1px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 100;
+    }
+  }
+
+  .header-menu {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    border-bottom: 0;
+    
+
+    .el-menu-item {
+      font-size: 18px;
+      border-bottom: 0;
+    }
+  }
+
+  
+}
